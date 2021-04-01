@@ -1,0 +1,130 @@
+@media only screen and (max-width: 600px) {
+  body {
+    width: 100%;
+    overflow-x: scroll;
+  }
+  nav {
+    justify-content: space-evenly;
+  }
+  .nav {
+    display: none;
+  }
+  .navShow {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100vh;
+    text-align: center;
+    justify-content: space-evenly;
+    background-color: rgb(40 10 40);
+  }
+  .nav-bar {
+    display: block;
+    font-size: 20px;
+    z-index: 1;
+  }
+  header section {
+    /* border: 1px solid; */
+    width: 100%;
+    padding: 0;
+    margin: 20px 0 100px;
+  }
+  .section-column {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: space-around;
+    width: 100%;
+  }
+  .section-column h1 {
+    font-size: 40px;
+    /* font-weight: 600; */
+    text-align: center;
+  }
+  .section-column img {
+    width: 80%;
+  }
+  .section-column button {
+    font-size: 15px;
+    padding: 10px 15px;
+    margin: 10px;
+    border-radius: 10px;
+  }
+  .column-text {
+    text-align: center;
+    margin-top: 0px;
+  }
+  .converter {
+    width: 100%;
+    overflow: hidden;
+    padding: 0;
+    color: #ffffff;
+    margin: 0 0 100px;
+  }
+  .converter img {
+    width: 70%;
+  }
+  .converter h3 {
+    line-height: 30px;
+    font-size: 20px;
+  }
+  #imageAudio {
+    width: 90%;
+  }
+
+  .field {
+    width: 100%;
+    padding: 0;
+  }
+  fieldset {
+    width: 90%;
+    padding: 10px;
+    margin: auto;
+  }
+  #projectName {
+    margin: 5px 0 20px;
+    width: 100%;
+  }
+  fieldset label {
+    font-size: 15px;
+  }
+  .nav2 {
+    display: none;
+  }
+  footer::before {
+    width: 100%;
+    left: 0px;
+    border-radius: 50px 50px 0 0;
+  }
+  footer::after {
+    width: 100%;
+    left: 0%;
+    border-radius: 50px 50px 0 0;
+  }
+}
+@media only screen and (max-width: 900px) and (min-width: 600px) {
+  header section {
+    padding: 1em;
+  }
+  .section-column img {
+    width: 45%;
+  }
+  .section-column h1 {
+    font-size: 40px;
+    /* font-weight: 600; */
+  }
+  .section-column button {
+    font-size: 15px;
+    border-radius: 10px;
+  }
+  .nav2 {
+    display: none;
+  }
+}
+@media only screen and (max-width: 1024px) {
+  .section-column img {
+    width: 40%;
+  }
+}
